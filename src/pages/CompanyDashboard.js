@@ -142,7 +142,7 @@ sendAiMessage: async (apiKey, prompt) => {
       >
         <h3 className="text-lg font-semibold mb-3">How to Use the API</h3>
         <pre className="bg-gray-900 text-green-400 p-4 rounded-lg text-sm overflow-x-auto">
-{`POST https://yourdomain.com/api/public-company-chat/chat
+{`POST https://aithor-vbyydstn.b4a.run/api/public-company-chat/chat
 Content-Type: application/json
 
 {
