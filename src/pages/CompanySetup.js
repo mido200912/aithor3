@@ -44,7 +44,7 @@ const CompanySetup = () => {
       if (company.apiKey) {
         setApiKey(company.apiKey);
         const backendUrl =
-          import.meta.env?.VITE_API_URL || "https://aithor-96s5749i.b4a.run/api";
+          import.meta.env?.VITE_API_URL || "https://aithor-vbyydstn.b4a.run/api";
         setApiUrl(`${backendUrl}/company/use-model`);
       } else {
         setError("API Key not found for this company");
