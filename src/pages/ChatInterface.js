@@ -16,7 +16,7 @@ const ChatInterface = () => {
     }
 
     try {
-      const res = await axios.get(`https://aithor-96s5749i.b4a.run/api/public/company/${apiKey}`);
+      const res = await axios.get(`https://aithor-vbyydstn.b4a.run/api/public/company/${apiKey}`);
       if (res.data.success) {
         setCompany(res.data.company);
         localStorage.setItem("companyApiKey", apiKey);
@@ -43,7 +43,7 @@ const ChatInterface = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("https://aithor-96s5749i.b4a.run/api/public/chat", {
+      const res = await axios.post("https://aithor-vbyydstn.b4a.run/api/public/chat", {
         companyApiKey: apiKey,
         prompt,
       });
