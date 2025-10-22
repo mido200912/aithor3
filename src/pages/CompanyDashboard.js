@@ -12,7 +12,7 @@ export default function CompanyDashboard() {
   const [prompt, setPrompt] = useState("Write an attractive description for my company");
 
   const token = localStorage.getItem("token");
-  const API_URL = (process.env.REACT_APP_API_URL || "https://aithor-96s5749i.b4a.run/api") + "/company";
+  const API_URL = (process.env.REACT_APP_API_URL || "https://aithor-vbyydstn.b4a.run/api") + "/company";
 
   useEffect(() => {
     fetchCompany();
