@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://aithor-vbyydstn.b4a.run/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://aithor-cw06qvmu.b4a.run/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
