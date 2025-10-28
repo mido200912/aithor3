@@ -6,7 +6,7 @@ const CompanyPages = () => {
   const [loading, setLoading] = useState(true);
 
   // جلب الشركات العامة بدون apiKey
-  const apiUrl = 'https://aithor-vbyydstn.b4a.run/api/public/companies/public';
+  const apiUrl = 'https://aithor-cw06qvmu.b4a.run/api/public/companies/public';
 
   useEffect(() => {
     async function fetchCompanies() {
