@@ -12,7 +12,7 @@ export default function CompanyDashboard() {
   const [prompt, setPrompt] = useState("Write an attractive description for my company");
 
   const token = localStorage.getItem("token");
-  const API_URL = (process.env.REACT_APP_API_URL || "https://aithor-vbyydstn.b4a.run/api") + "/company";
+  const API_URL = (process.env.REACT_APP_API_URL || "https://aithor-cw06qvmu.b4a.run/api") + "/company";
 
   useEffect(() => {
     fetchCompany();
@@ -142,7 +142,7 @@ sendAiMessage: async (apiKey, prompt) => {
       >
         <h3 className="text-lg font-semibold mb-3">How to Use the API</h3>
         <pre className="bg-gray-900 text-green-400 p-4 rounded-lg text-sm overflow-x-auto">
-{`POST https://aithor-vbyydstn.b4a.run/api/public-company-chat/chat
+{`POST https://aithor-cw06qvmu.b4a.run/api/public-company-chat/chat
 Content-Type: application/json
 
 {
